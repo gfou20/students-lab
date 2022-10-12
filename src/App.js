@@ -1,5 +1,6 @@
-import './App.css';
-import Students from './Components/Students';
+import './App.css'
+import Greeting from './Greeting';
+// import Student from './Student'
 
 
 function App() {
@@ -66,11 +67,10 @@ function App() {
 
   return (
     <div>
-      {students.map(student =>
-        <Students key={student.name} student={student}/>
-      )}
+      <Greeting />
+      {/* <Student /> */}
     </div>
-  );
+  )
 }
 
 export default App;
