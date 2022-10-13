@@ -1,6 +1,6 @@
 import './App.css'
 import Greeting from './Greeting';
-// import Student from './Student'
+import Student from './Student';
 
 
 function App() {
@@ -68,7 +68,7 @@ function App() {
   return (
     <div>
       <Greeting />
-      {/* <Student /> */}
+      <Student />
     </div>
   )
 }

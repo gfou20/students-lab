@@ -1,8 +1,8 @@
 function Greeting(props) {
   return (
     <>
-      <h1>Welcome Students!</h1>
-      <h3>See Student info below!⬇️</h3>
+      <h1>Welcome students!</h1>
+      <h3>See student info below!⬇️</h3>
     </>
   )
 }
