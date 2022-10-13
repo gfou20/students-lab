@@ -1,6 +1,6 @@
 import './App.css'
 import Greeting from './Greeting';
-import Student from './Student';
+import StudentList from './StudentList';
 
 
 function App() {
@@ -68,7 +68,7 @@ function App() {
   return (
     <div>
       <Greeting />
-      <Student />
+      <StudentList students={students} />
     </div>
   )
 }
