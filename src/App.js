@@ -1,6 +1,7 @@
 import './App.css'
-import Greeting from './Greeting';
-import StudentList from './StudentList';
+import Greeting from './Greeting'
+import StudentList from './StudentList'
+
 
 
 function App() {
